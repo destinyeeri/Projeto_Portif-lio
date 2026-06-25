@@ -36,6 +36,10 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  /* o z-index funciona da mesma forma que o order, a diferença é que ele muda a ordem da pagina inteira, se o header esta como 1 isso significa que a prioridade dele é maior que 0 */
+  z-index: 1;
 }
 
 nav#menu ul {
